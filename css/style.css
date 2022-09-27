@@ -1,0 +1,19 @@
+header {
+    height: 20vh;
+
+}
+footer {
+    height: 20vh;
+}
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px !important;
+}
+#galeria img {
+    width: 100% !important;
+    height: 250px !important;
+}
+#galeria img-hover {
+    border: 5px solid #f7f7f7;
+
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="./CSS/estilos.css">
+        <title>Contacto</title>
+    </head> 
+<body>
+    <header class="container-fluid">
+        <section class="row">
+            <nav class="col-12 navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Arq. Sebastian Duabyakosky</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Servicios
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="../pages/servicios.html">Diseño</a></li>
+                                <li><a class="dropdown-item" href="../pages/servicios.html">Direccion de Obra</a></li>
+                                <li><a class="dropdown-item" href="../pages/servicios.html">Gestion</a></li>
+                                <li><a class="dropdown-item" href="../pages/servicios.html">Asesoramiento</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>       
+            </nav>
+        </section>  
+    <form action="" method="post">
+        <p> Ingresa tus datos si queres que te contactemos</p>
+        <fieldset>
+            <legend align="center">Informacion de contacto</legend>
+            <br>
+            <br>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido">
+            </div>    
+            <br>
+            <br>
+            <div>  
+                 <label for="dni">DNI</label>
+                 <input type="number" id="dni">
+                 <label for="mail">Correo electronico</label>
+                 <input type="email" id="mail">      
+            </div> 
+            <br>
+            <br>
+            <div>
+                <label for="telefonoprincipal">Telefono principal</label>
+                <input type="number" id=" telefonoprincipal">
+                <label for="telefonosecundario">Telefono secundario</label>
+                <input type="number" id="telefonosecundario">
+            </div>    
+            <br>
+            <br>
+            <P>Necesito asesoramiento referente a:</P>
+            <br>
+            <br>
+            <input type="checkbox" name="construccion" id="construccion">Construccion
+            <input type="checkbox" name="diseño" id="diseño">Diseño
+            <input type="checkbox" name="asesoramientotramites" id="asesoramientotramites">Tramites
+            <input type="checkbox" name="otros" id="otros">Otros
+            <br>
+            <br>
+            <h5>Prefiero ser contactado por:</h5>
+            <br>
+            <div>
+                 <input type="radio" name="contacto" value="correo"> Correo
+            </div>
+            <div>
+                <input type="radio" name="contacto" value="telefonico"> Teléfono
+            </div>
+            <br>
+            </fieldset>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10">Ingrese sus comentarios acerca de porque desea ser contactado</textarea>
+            <input id="enviar" type="submit" value="enviarformulario"/>
+            <input id="limpiar" type="reset" value="limpiarformulario"/>
+    </form>
+</body>
+<br>
+<br>
+<footer class="container-fluid">
+        
+    <div class="row bg-dark bg-gradient text-white"> 
+        <ul class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 nav d-flex justify-content-xxl-start justify-content-xl-start justify-content-lg-start justify-content-sm-center justify-content-md-center">
+            <li class="nav-item">
+                <a class="nav-link " href="../index.html">Ir a página de inicio</a>
+            </li>
+        </ul>
+        <ul class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 nav d-flex justify-content-xxl-start justify-content-xl-start justify-content-lg-start justify-content-sm-center justify-content-md-center">
+            <li class="nav-item">
+                <a class="nav-link" href="mailto:arqduabya@gmail.com"><img src="../assets/imagenes/gmail.png" alt="Correo" width="20"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/arqduabya.duabya"><img src="../assets/imagenes/facebook.png" alt="Facebook" width="20"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/arq.duabya/"><img src="../assets/imagenes/instagram.png" alt="instagram" width="20"></a>
+            </li>
+        </ul>
+    </div> 
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
