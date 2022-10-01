@@ -2,8 +2,11 @@ header {
     height: 20vh;
 
 }
+main{
+    height: 50vh;
+}
 footer {
-    height: 20vh;
+    height: 30vh;
 }
 #galeria .col-lg-4 {
     margin: 0 !important;
