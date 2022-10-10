@@ -49,60 +49,62 @@
             </div>       
             </nav>
         </section>  
-    <form action="" method="post">
-        <p> Ingresa tus datos si queres que te contactemos</p>
-        <fieldset>
-            <legend align="center">Informacion de contacto</legend>
-            <br>
-            <br>
-            <div>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre">
-                <label for="apellido">Apellido</label>
-                <input type="text" id="apellido">
-            </div>    
-            <br>
-            <br>
-            <div>  
-                 <label for="dni">DNI</label>
-                 <input type="number" id="dni">
-                 <label for="mail">Correo electronico</label>
-                 <input type="email" id="mail">      
-            </div> 
-            <br>
-            <br>
-            <div>
-                <label for="telefonoprincipal">Telefono principal</label>
-                <input type="number" id=" telefonoprincipal">
-                <label for="telefonosecundario">Telefono secundario</label>
-                <input type="number" id="telefonosecundario">
-            </div>    
-            <br>
-            <br>
-            <P>Necesito asesoramiento referente a:</P>
-            <br>
-            <br>
-            <input type="checkbox" name="construccion" id="construccion">Construccion
-            <input type="checkbox" name="diseño" id="diseño">Diseño
-            <input type="checkbox" name="asesoramientotramites" id="asesoramientotramites">Tramites
-            <input type="checkbox" name="otros" id="otros">Otros
-            <br>
-            <br>
-            <h5>Prefiero ser contactado por:</h5>
-            <br>
-            <div>
-                 <input type="radio" name="contacto" value="correo"> Correo
+    </header> 
+    <main>
+            <div class="container">
+            <form class="row p-3">
+                <div class="col-4">
+                    <label for="nombre" class="form-label" >Nombre</label>
+                    <input type="text" class="form-control" required id="nombre">
+                </div>      
+                <div class="col-4">      
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" required id="apellido">    
+                </div>  
+                <div class="col-4 ">
+                    <label for="fechaNacimiento" class="form-label">Fecha de Nacimiento</label>
+                    <input type="date" class="form-control" id="fechaNacimiento">    
+                </div> 
+            </form>
+            <form class="row p-3">
+                <div class="col-4">
+                    <label for="dni" class="form-label">DNI</label>
+                    <input type="number" class="form-control" required id="dni">    
+                </div>  
+                <div class="col-4">
+                    <label for="correo" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="correo">    
+                </div>  
+                <div class="col-4">
+                    <label for="telNumber" class="form-label">Telefono de contacto</label>
+                    <input type="tel" class="form-control" required id="telNumber">    
+                </div>  
+            </form>
+            <div class="row p-4">
+                <div class="col-4">
+                    <p>Marque de que forma desea ser contactado:</p>
+                    <div class="form-check">
+                        <label class="form-check-label" for="contactel">Telefónicamente</label>
+                        <input class="form-check-input" type="checkbox" id="contactel">
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="contactwhatsap">Whatsap</label>
+                        <input class="form-check-input" type="checkbox" id="contactwhatsap">
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="contactmail">Mail</label>
+                        <input class="form-check-input" type="checkbox" id="contactmail">
+                    </div>
+                </div>
+                <div class="col-8">
+                    <textarea name="comentarios" id="comentario" cols="80" rows="8" placeholder="Dejenos sus comentarios..."></textarea>
+                </div> 
             </div>
-            <div>
-                <input type="radio" name="contacto" value="telefonico"> Teléfono
-            </div>
-            <br>
-            </fieldset>
-            <textarea name="comentarios" id="comentarios" cols="30" rows="10">Ingrese sus comentarios acerca de porque desea ser contactado</textarea>
-            <input id="enviar" type="submit" value="enviarformulario"/>
-            <input id="limpiar" type="reset" value="limpiarformulario"/>
+            <input class="btn btn-secondary" type="submit" value="Enviar">
+            <input class="btn btn-secondary" type="reset" value="Borrar">
     </form>
-</body>
+</main>    
+
 <br>
 <br>
 <footer class="container-fluid">

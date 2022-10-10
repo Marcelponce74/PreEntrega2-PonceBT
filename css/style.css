@@ -2,11 +2,16 @@ header {
     height: 20vh;
 
 }
-main{
-    height: 50vh;
+main section{
+    height: 55vh;
+    background-color: #688AA7;
 }
 footer {
-    height: 30vh;
+    height: 25vh;
+    position: relative;
+}
+.carousel-item img{
+    max-height: 90%;
 }
 #galeria .col-lg-4 {
     margin: 0 !important;
