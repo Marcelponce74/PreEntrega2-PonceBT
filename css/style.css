@@ -1,6 +1,13 @@
 main {
   width: 60wh; }
 
+@media only screen and (max-width: 425px) {
+  main section #carouselDeImagen .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; } }
+
 body {
   height: 100vh;
   width: 100vh; }
@@ -12,4 +19,4 @@ header {
 footer {
   height: 20vh;
   display: flex;
-  position: fixed; }
+  button: 0; }
