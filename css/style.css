@@ -1,27 +1,13 @@
+main {
+  width: 60wh; }
+
+body {
+  height: 100vh;
+  width: 100vh; }
+
 header {
-    height: 20vh;
+  height: 20vh;
+  width: 100vh; }
 
-}
-main section{
-    height: 55vh;
-    background-color: #688AA7;
-}
 footer {
-    height: 25vh;
-    position: relative;
-}
-.carousel-item img{
-    max-height: 90%;
-}
-#galeria .col-lg-4 {
-    margin: 0 !important;
-    padding: 25px !important;
-}
-#galeria img {
-    width: 100% !important;
-    height: 250px !important;
-}
-#galeria img-hover {
-    border: 5px solid #f7f7f7;
-
-}
+  height: 20vh; }
